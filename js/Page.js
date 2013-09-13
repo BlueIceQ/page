@@ -14,7 +14,7 @@
  *
  *【联系】：QQ：151702314 新浪微博：BlueIceQ  如果您发现有bug或者不足之处，请联系我，并及时修改，谢谢。
  *
- * Date: Fri Sep 13 2013 16:20:33 (Shangehai Standard Time)
+ * Date: Fri Sep 13 2013 16:20:33 (Shanghai Standard Time)
  */
 
 
