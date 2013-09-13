@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title> New Document </title>
+		<style>
+			.butNav{
+				font-size:12px;
+				line-height:12px;
+				padding:1px 6px;
+				color:#494949;
+				text-decoration:none;
+			}
+
+			.butNav:link      { color:#494949;}
+			.butNav:visited   { color:#494949;}
+			.butNav:hover     { color:black;background:#F5F5F5;}
+			.butNav:active    { color:#dbdbdb;background:#909090;}
+
+			.butPage {
+				font-size:12px;
+				line-height:12px;
+				padding:0 6px;
+				color:white;
+				background:#404040;
+				text-decoration:none;
+			}
+		</style>
+		<script type="text/javascript" src="js/Page.js"></script>
+	</head>
+	<body>
+		修改当前页数：（范围：1-50）<br/><input type="range" min="1" max="50" id="channel" value="1" onchange="updateTextInput(this.value)"/>
+		<input type="button" name="channelsort" id="cp" value="1"/><br/>
+		<input type="button" value="click me" onclick="showSamplePageView(10,50,5,'http://xxx.com.cn/servlet/page.action?pn=','butNav','butPage','page')"/>
+		<br/><br/><br/><br/>
+		<div id="page"></div>
+	</body>
+</html>
